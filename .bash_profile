@@ -10,3 +10,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
+
+# Add Go `~/Projects/go` to `$GOPATH` 
+export GOPATH=$HOME/Projects/go
+
+# Add Go executables `~/Projects/go/bin` to the `$PATH`
+export PATH=$PATH:$GOPATH/bin
