@@ -1,0 +1,9 @@
+*
+!.aliases
+!.bash_profile
+!.bash_prompt
+!.gitignore
+!.gitconfig
+!.path
+!.viminfo
+!.vimrc
